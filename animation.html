@@ -5,14 +5,20 @@
      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-<svg width="80%" viewBox="0 0 200 100">
-
-
-
-
-
-
-
+<svg width="100%" viewBox="0 0 800 800">
+  <ellipse cx="500" cy="100" rx="100" ry="50" fill="magenta">
+    <animate attributeName="cy" from="250" to="400" dur="5s"
+    repeatCount="indefinite" id="test.1"/>
+    <animate attributeName="cx" from="250" to="400" dur="5s"
+    repeatCount="indefinite"/>
+</ellipse>
+<svg width="1000" height="500">
+  <circle cx="250" cy="200" r="50" fill="lavender">
+    <animate attributeName="cy" from="200" to="350" dur="5s"
+    repeatCount="indefinite" id="test.1"/>
+    <animate attributeName="cx" from="250" to="400" dur="5s"
+    repeatCount="indefinite"/>
+  </circle>
 
   </body>
 </html>
