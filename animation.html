@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <style>
+@import 'https://fonts.googleapis.com/css?family=Almendra+SC';
+</style>
     <meta charset="utf-8">
      <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1> Unidentified Flying Object </h1>
+    <p> I decided to do my project on a UFO because it was simple. I added
+      a shooting star because it relates to the outerspace. The sun turns into
+      the moon while the UFO is going down. I've always wanted to witness something
+      like this. </p>
 <svg width="100%" viewBox="0 0 800 800">
   <ellipse cx="500" cy="100" rx="100" ry="50" fill="silver">
     <animate attributeName="cy" from="250" to="400" dur="5s"
@@ -13,7 +21,7 @@
     repeatCount="indefinite"/>
 </ellipse>
 <svg width="1000" height="500">
-  <circle cx="250" cy="200" r="50" fill="grey">
+  <circle cx="250" cy="200" r="50" fill="grey" fill-opacity="0.9">
     <animate attributeName="cy" from="200" to="350" dur="5s"
     repeatCount="indefinite" id="test.1"/>
     <animate attributeName="cx" from="250" to="400" dur="5s"
@@ -30,6 +38,9 @@
   <animate attributeName="y" from="75" to="20" dur="0.5"
   begin="click" id="test1" fill="freeze"/>
 </image>
+<image x="385" y="5" width="100" height="150"
+ xlink:href="https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png">
+ </image>
 
 
   </body>

@@ -1,3 +1,9 @@
+h1 {
+  font-family: 'Almendra SC', serif;
+}
+p{
+  color: darkblue;
+}
 svg {
   background-color: darkblue;
 }
